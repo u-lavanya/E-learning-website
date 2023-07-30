@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning Website</title>
+  <link rel="shortcut icon" href="./z.png" type="image/x-icon">
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css" >
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font awesome cdn  -->
+</head>
+<body>
+
+  <!-- ========================navbar section ====================-->
+ <nav class="">
+    <div class="container">
+      <div class="logo">
+        MindGrove
+      </div>
+      <ul class="nav-list">
+        <li><a href="#" class="list-item" onclick="changeBar()">Main</a></li>
+        <li><a href="#course" class="list-item" onclick="changeBar()">Course</a></li>
+        <li><a href="#service" class="list-item" onclick="changeBar()">Service</a></li>
+        <li><a href="#testimonial" class="list-item" onclick="changeBar()">Testimonial</a></li>
+        <li><a href="#contact" class="list-item" onclick="changeBar()">Contact</a></li>
+      </ul>
+
+      <div class="mobile-menu">
+        <i class="fa-solid fa-bars openMenu" onclick="changeBar()"></i>
+        <i class="fa-solid fa-xmark closeMenu" onclick="changeBar()"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- ========================navbar section ====================-->
+  <!-- ========================header section ====================-->
+  
+  <header>
+    <div class="container">
+      <div class="header-info">
+        <h1 class="header-title">
+          Build a career efficiently on the country's best e-learning platform
+        </h1>
+        <p class="header-subtitle">
+          With experienced mentors and updated curriculum, Skilllearning is ready to advance your career. Choose your favorite course from our more than 300 courses today
+        </p>
+
+        <div class="hero-btns">
+          <button class="header-btn ">Browse courses</button>
+          <button class="header-btn active">Free seminar</button>
+        </div>
+      </div>
+      <div class="header-img">
+        <img src="./z1.png" alt="" loading="lazy">
+      </div>
+    </div>
+  </header>
+  <!-- ========================header section ====================-->
+  <!-- ========================course section ====================-->
+
+  <section id="course">
+    <div class="container course-container">
+      <h2 class="section-title">
+        Popular Courses
+      </h2>
+      <p class="section-subtitle">
+        Our course list is arranged with those skills which are currently in most demand in the country and outside the country. From here you can enroll in the course online or offline anytime at your convenience.
+      </p>
+      <div class="course-list">
+        <a href="" class="course-btn active">All courses</a>
+        <a href="" class="course-btn">Web development</a>
+        <a href="" class="course-btn">Creative design</a>
+        <a href="" class="course-btn">Cyber ​​security</a>
+        <a href="" class="course-btn">Digital Marketing</a>
+      </div>
+      <div class="course-wrapper">
+        <figure class="course-card">
+          <img src="./z5.png" alt="">
+          <figcaption>
+            <p class="card-title">Full Stack Web Development</p>
+            <h5 class="course-name">Complete Web development course(Front-End and Back-End)</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(2400+ Reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z6.png" alt="">
+          <figcaption>
+            <p class="card-title">Digital Marketing</p>
+            <h5 class="course-name"> Complete Digital Marketing Course</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(3400+ Reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z7.png" alt="">
+          <figcaption>
+            <p class="card-title">Business Analytics</p>
+            <h5 class="course-name"> Beginners guide to Business Analysis</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(7400+ reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z8.png" alt="">
+          <figcaption>
+            <p class="card-title">Data Science</p>
+            <h5 class="course-name">A-Z Giude on Data Science</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(4200+ Reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z9.png" alt="">
+          <figcaption>
+            <p class="card-title">Cyber Security</p>
+            <h5 class="course-name">Complete Guide About Cyber Security</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(4040+ reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z10.png" alt="">
+          <figcaption>
+            <p class="card-title">Generative AI</p>
+            <h5 class="course-name">Complete guide to build Chatgpt</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(9400+ reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z11.png" alt="">
+          <figcaption>
+            <p class="card-title">Accounting</p>
+            <h5 class="course-name">Beginners guide about accounting</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(17400+ reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+        <figure class="course-card">
+          <img src=" ./z12.png" alt="">
+          <figcaption>
+            <p class="card-title">UI & UX Design</p>
+            <h5 class="course-name">Complete guide on web design using figma</h5>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <p>(11400+ reviews)</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!-- ========================course section ====================-->
+  <!-- ========================services section ====================-->
+  <section id="service">
+    <div class="service-header">
+      <h2>Our Services </h2>
+      <p>Not just classes, Skill Learning is always ready for any need of students, anytime. So along with premium courses you get some bonus benefits, which only we provide.</p></div>
+    <div class="container service-container">
+<figure class="service-card">
+<img src=" ./z13.png" alt="">
+<h4>24/7 support system</h4>
+<p>Even though the training is over, the relationship with you is not over. As a Creative IT student you get life time support. 24/7 online support anytime. Our subject wise experienced team ensures this support offline or online.</p>
+</figure>
+<figure class="service-card">
+<img src=" ./z14.png" alt="">
+<h4>Review class system</h4>
+<p>Lifetime Review Assistance: Access to our subject-wise experts even after your course is over.Get help anytime, anywhere, with just a few clicks.Attend in-person review sessions to reinforce your knowledge.</p>
+</figure>
+<figure class="service-card">
+<img src=" ./z15.png" alt="">
+<h4>Practical Lab</h4>
+<p>We have separate labs during the course so that your regular practice is not disturbed in any way. As a Creative IT student you can practice your course work in this lab anytime, as long as you want.</p>
+</figure>
+<figure class="service-card">
+<img src=" ./z16.png" alt="">
+<h4>Freelancing support</h4>
+<p>Our experienced team offers personalized tips to excel in the freelancing world. Receive feedback to showcase your best work and attract clients and master the art of effective client interaction for successful projects.</p>
+</figure>
+<figure class="service-card">
+<img src=" ./z17.png" alt="">
+<h4>Job placement support</h4>
+<p>Completed your training? Congratulations! But our commitment to your career journey doesn't stop there!Access to our network of job opportunities, perfectly matched to your skills.</p>
+</figure>
+<figure class="service-card">
+<img src=" ./z18.png" alt="">
+<h4>Professional Internship</h4>
+<p>Completed your training? Congratulations! Now, take the next step towards real-world experience with our Professional Internships! Work closely with seasoned professionals and learn from the best.</p>
+</figure>
+    </div>
+  </section>
+  <!-- ========================services section ====================-->
+  <!-- ========================testimonial section ====================-->
+
+  <section id="testimonial">
+    <div class="container">
+<!-- swiper js  -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="testimonial-img">
+        <img src=" ./z2.png" alt="">
+      </div>
+      <div class="testimonial-info">
+        <h5 class="quote">
+          <p>Title: Culinary Delight: Unmatched Cooking Course for Women!</p>
+          <p>Rating: ★★★★★ (5/5)</p><br>
+          As a woman with a passion for cooking, I must say that [E-Learning Website]'s cooking course was an absolute delight! The course was tailored to suit home cooks like me, and it exceeded all my expectations. The user-friendly interface, expert instructors, and hands-on recipes made the learning process both fun and informative. From mastering essential techniques to crafting mouthwatering dishes, this course has elevated my culinary skills to a whole new level. I'm now confidently experimenting in the kitchen and creating delectable meals for my loved ones. Highly recommend it! 👩‍🍳👍
+        </h5>
+
+        <h5 class="student-name">
+          Tasfia Jahin
+        </h5>
+        <p class="university-name">
+          House Wife 
+        </p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="testimonial-img">
+        <img src="./z3.png" alt="">
+      </div>
+      <div class="testimonial-info">
+        <h5 class="quote">
+          <p>Title: Outstanding Web Development Course for Non-CSE Students!</p>
+          <p>Rating: ★★★★★ (5/5)</p><br>
+          I'm a non-CSE student, and [E-Learning Website]'s web development course was mind-blowing! The user-friendly interface, expert instruction, real-time coding practice, and practical projects made learning web development a breeze. I now have my web portfolio and newfound passion for coding. Highly recommend it! 👍
+        </h5>
+        <h5 class="student-name">
+          Erika Hernandez
+        </h5>
+        <p class="university-name">
+          Student of BRAC University
+        </p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="testimonial-img">
+        <img src="./z4.png" alt="">
+      </div>
+      <div class="testimonial-info">
+        <h5 class="quote">
+          <p>Title: Exceptional Business Analysis Course for Office Professionals!</p>
+          <p>Rating: ★★★★★ (5/5)</p><br>
+          As a working professional in an office environment, I can't praise [E-Learning Website]'s business analysis course enough! The course was designed to cater to professionals like me, and it was a revelation. The user-friendly platform, expert instruction, and practical exercises made learning business analysis enjoyable and applicable to real-world scenarios. I've gained invaluable skills that have already improved my performance at work. Highly recommend it! 👍</h5>
+        <h5 class="student-name">
+         Alex Joseph
+        </h5>
+        <p class="university-name">
+          Employee at JP Morgon
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+<!-- swiper js  -->
+    </div>
+  </section>
+  <!-- ========================testimonial section ====================-->
+  <!-- ========================workshop section ====================-->
+  <section id="workshop">
+    <div class="workshop-header">
+      <h2>Join our next free workshop</h2><br>
+      <p>Can't decide which course to take for freelancing? Join our free seminar. In these subject wise seminars you will know about the possibilities of each course. Moreover, by talking to the expert counselor present in the seminar, you can easily decide to choose the appropriate course</p></div>
+    <div class="container workshop-container">
+      <div class="workshop-card">
+        <p class="date">01st August to 03rd August, 2022</p>
+        <h5 class="workshop-name">Fullstack Web Development</h5>
+
+        <a href="" class="join-workshop">
+          join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">03rd August to 07th August, 2022</p>
+        <h5 class="workshop-name">Data Analysis</h5>
+
+        <a href="" class="join-workshop">
+          join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">03rd August to 07th August, 2022</p>
+        <h5 class="workshop-name">Business Analytics</h5>
+
+        <a href="" class="join-workshop">
+          join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">07th August to 10th August, 2022</p>
+        <h5 class="workshop-name">Cooking Course</h5>
+
+        <a href="" class="join-workshop">
+          Join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">03rd August to 07th August, 2022</p>
+        <h5 class="workshop-name">Back-End Web Development</h5>
+
+        <a href="" class="join-workshop">
+          Join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">01stAugust to 03rd August, 2022</p>
+        <h5 class="workshop-name">Front-End Web Development</h5>
+
+        <a href="" class="join-workshop">
+          join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">10th August to 13th August, 2022</p>
+        <h5 class="workshop-name">Generative AI</h5>
+
+        <a href="" class="join-workshop">
+          Join
+        </a>
+      </div>
+      <div class="workshop-card">
+        <p class="date">05th August to 09th August, 2022</p>
+        <h5 class="workshop-name">UI and UX Design</h5>
+
+        <a href="" class="join-workshop">
+          Join
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- ========================workshop section ====================-->
+  <!-- ========================footer section ====================-->
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Payment Options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul>
+            <li><a href="#">MindGrove Business</a></li>
+            <li><a href="#">Teach on MindGrove</a></li>
+            <li><a href="#">Get the app</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+ </footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
